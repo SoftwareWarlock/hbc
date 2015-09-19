@@ -80,7 +80,7 @@
     </repository>
     <repository>
       <id>Local Repo</id>
-      <url>file://${basedir}\local-repo</url>
+      <url>file://${basedir}/local-repo</url>
     </repository>
   </repositories>
   <build>
