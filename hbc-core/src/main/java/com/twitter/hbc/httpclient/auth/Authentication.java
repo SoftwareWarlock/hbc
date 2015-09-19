@@ -13,8 +13,8 @@
 
 package com.twitter.hbc.httpclient.auth;
 
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.impl.client.AbstractHttpClient;
+import ch.boye.httpclientandroidlib.client.methods.HttpUriRequest;
+import ch.boye.httpclientandroidlib.impl.client.AbstractHttpClient;
 
 public interface Authentication {
 

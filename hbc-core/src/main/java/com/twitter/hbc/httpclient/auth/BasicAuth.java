@@ -14,10 +14,10 @@
 package com.twitter.hbc.httpclient.auth;
 
 import com.google.common.base.Preconditions;
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.UsernamePasswordCredentials;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.impl.client.AbstractHttpClient;
+import ch.boye.httpclientandroidlib.auth.AuthScope;
+import ch.boye.httpclientandroidlib.auth.UsernamePasswordCredentials;
+import ch.boye.httpclientandroidlib.client.methods.HttpUriRequest;
+import ch.boye.httpclientandroidlib.impl.client.AbstractHttpClient;
 
 public class BasicAuth implements Authentication {
 

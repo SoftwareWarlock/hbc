@@ -78,6 +78,10 @@
         <enabled>true</enabled>
       </snapshots>
     </repository>
+    <repository>
+      <id>Local Repo</id>
+      <url>file://${basedir}\local-repo</url>
+    </repository>
   </repositories>
   <build>
     <pluginManagement>

@@ -16,11 +16,11 @@ package com.twitter.hbc.core;
 import com.google.common.collect.ImmutableSet;
 import com.twitter.hbc.core.endpoint.Endpoint;
 import com.twitter.hbc.httpclient.auth.Authentication;
-import org.apache.http.HttpHeaders;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.entity.StringEntity;
+import ch.boye.httpclientandroidlib.HttpHeaders;
+import ch.boye.httpclientandroidlib.client.methods.HttpGet;
+import ch.boye.httpclientandroidlib.client.methods.HttpPost;
+import ch.boye.httpclientandroidlib.client.methods.HttpUriRequest;
+import ch.boye.httpclientandroidlib.entity.StringEntity;
 
 import java.util.Set;
 

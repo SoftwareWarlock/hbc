@@ -13,7 +13,7 @@
 
 package com.twitter.hbc.httpclient;
 
-import org.apache.http.StatusLine;
+import ch.boye.httpclientandroidlib.StatusLine;
 
 public class ControlStreamException extends Exception {
 

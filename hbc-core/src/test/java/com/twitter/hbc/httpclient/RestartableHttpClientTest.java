@@ -2,11 +2,11 @@ package com.twitter.hbc.httpclient;
 
 import com.twitter.hbc.httpclient.auth.Authentication;
 import java.net.UnknownHostException;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.conn.scheme.SchemeRegistry;
-import org.apache.http.impl.conn.SchemeRegistryFactory;
-import org.apache.http.params.HttpParams;
+import ch.boye.httpclientandroidlib.client.methods.HttpGet;
+import ch.boye.httpclientandroidlib.client.methods.HttpUriRequest;
+import ch.boye.httpclientandroidlib.conn.scheme.SchemeRegistry;
+import ch.boye.httpclientandroidlib.impl.conn.SchemeRegistryFactory;
+import ch.boye.httpclientandroidlib.params.HttpParams;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.fail;

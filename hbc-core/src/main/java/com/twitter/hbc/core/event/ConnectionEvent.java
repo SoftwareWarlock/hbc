@@ -13,7 +13,7 @@
 
 package com.twitter.hbc.core.event;
 
-import org.apache.http.client.methods.HttpUriRequest;
+import ch.boye.httpclientandroidlib.client.methods.HttpUriRequest;
 
 public class ConnectionEvent extends Event {
 

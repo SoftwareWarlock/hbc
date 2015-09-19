@@ -14,7 +14,7 @@
 package com.twitter.hbc.core.event;
 
 import com.google.common.base.Preconditions;
-import org.apache.http.StatusLine;
+import ch.boye.httpclientandroidlib.StatusLine;
 
 public class HttpResponseEvent extends Event {
 

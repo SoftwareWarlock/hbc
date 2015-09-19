@@ -16,10 +16,10 @@ package com.twitter.hbc.httpclient;
 import com.google.common.base.Preconditions;
 import com.google.common.io.Closeables;
 import com.twitter.hbc.core.processor.HosebirdMessageProcessor;
-import org.apache.http.HttpResponse;
-import org.apache.http.StatusLine;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpUriRequest;
+import ch.boye.httpclientandroidlib.HttpResponse;
+import ch.boye.httpclientandroidlib.StatusLine;
+import ch.boye.httpclientandroidlib.client.HttpClient;
+import ch.boye.httpclientandroidlib.client.methods.HttpUriRequest;
 
 import java.io.IOException;
 import java.io.InputStream;
