@@ -18,13 +18,21 @@ The Hosebird client is broken down into two modules: hbc-core and hbc-twitter4j.
 The latest hbc artifacts are published to maven central. Bringing hbc into your project should be as simple as adding the following to your maven pom.xml file:
 
 ```xml
-  <dependencies>
-    <dependency>
-      <groupId>com.twitter</groupId>
-      <artifactId>hbc-core</artifactId> <!-- or hbc-twitter4j -->
-      <version>2.2.0</version> <!-- or whatever the latest version is -->
-    </dependency>
-  </dependencies>
+  <dependency>
+    <groupId>com.github.emptyflash</groupId>
+   <artifactId>hbc</artifactId>
+    <version>hbc-2.2.2</version>
+  </dependency>
+  <dependency>
+    <groupId>com.github.emptyflash.hbc</groupId>
+    <artifactId>hbc-twitter4j</artifactId>
+    <version>hbc-2.2.2</version>
+  </dependency>
+  <dependency>
+    <groupId>com.github.emptyflash.hbc</groupId>
+    <artifactId>hbc-core</artifactId>
+    <version>hbc-2.2.2</version>
+  </dependency>
 ```
 
 ### Quickstart
