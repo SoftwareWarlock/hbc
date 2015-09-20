@@ -78,10 +78,10 @@
         <enabled>true</enabled>
       </snapshots>
     </repository>
-    <repository>
-      <id>Local Repo</id>
-      <url>file://${basedir}/local-repo</url>
-    </repository>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
   </repositories>
   <build>
     <pluginManagement>
